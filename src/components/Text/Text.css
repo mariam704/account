@@ -1,0 +1,72 @@
+section .container .text-container{
+    margin-left: 1rem;
+    padding: 3rem 2rem;
+   
+  }
+  .text-container h2{color: black;}
+  section .container section .container .text-container{
+    margin-left: 1rem;
+    padding: 3rem 2rem;
+   
+  }
+  section .container .text-container h2{color: black;}
+  section .container .text-container p{color: black;}
+  section .container .text-container button{
+    background-color: transparent;
+      border: transparent;
+  }
+  section .container .text-container  .active{
+    background-color: rgb(145 94 223);
+    border-radius: 2rem;
+    padding: 7px;
+    text-transform: uppercase;
+      font-weight: 700;
+      font-size: 15px;
+      margin: 0 1rem;
+      /* width: 30%; */
+      color: #fff;
+  }.text-container p{color: black;}
+  section .container .text-container button{
+    background-color: transparent;
+      border: transparent;
+  }
+  section .container .text-container  .active{
+    background-color: rgb(145 94 223);
+    border-radius: 2rem;
+    padding: 7px;
+    text-transform: uppercase;
+      font-weight: 700;
+      font-size: 15px;
+      margin: 0 1rem;
+      /* width: 30%; */
+      color: #fff;
+  }
+  @media screen and (max-width: 800px){
+    section .container .text-container h2{font-size: 17px;
+        font-weight: 700;}
+    section .container .text-container p{
+        font-size: 15px;
+        line-break: auto;
+        padding: 0 3px;
+    }
+    section .container .text-container .active{font-size: 14px; margin-top: 15px;}
+    ection .container .text-container {margin: 2rem;}
+  
+}
+@media screen and (max-width: 500px){
+    section .container .text-container{margin-left: -46px;}
+  section .container .text-container p{ font-size: 0.6rem;}
+
+ 
+}
+@media screen and (max-width: 280px){
+   section .container .text-container {
+        margin: 0;
+    }
+    section .container .text-container h2{font-size: 10px;}
+    section .container .text-container p{padding: 0 6px;}
+    section .container .text-container .active {
+        font-size: 8px;
+ }    
+
+}

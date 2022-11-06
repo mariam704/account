@@ -1,0 +1,75 @@
+.contact-form .right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+.contact-form .right form{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact-form .right .form-text input{
+    margin: 4px;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px; 
+    width: 10rem;
+    height: 2rem;
+
+}
+.contact-form .right  textarea{
+    height: 10rem;
+    margin: 4px;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+.contact-form .right  input[type=submit]  {
+    border-radius: 13px;
+    margin: 4px;
+    background-color: var(--orange);
+    border: none;
+    box-shadow: 0px 20px 24px 3px rgb(251 161 40 / 42%);
+    padding: 11px 26px 11px 26px;
+    font-size: 16px;
+    width: 7rem;
+    
+}
+/* .right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+} */
+.contact-form .right .form-text textarea{
+
+}
+.w-left{
+    display: flex;
+    flex-direction: column;
+
+}
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .right .user{
+        width: 16rem;
+    }
+
+} 
